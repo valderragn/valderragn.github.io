@@ -18,20 +18,20 @@
 }
 
 .ico-logo{
-    background-image: url('./img/icons/mainlog.svg');
+    background-image: url('./img/portfolio/mainlog.svg');
 }
 
 /* navTittle */
 
 .ico-2dDes{
-    background-image: url('./img/icons/2dDesign.svg');
+    background-image: url('./img/portfolio/2dDesign.svg');
 }
 .ico-3dMod{
-    background-image: url('./img/icons/model3d.svg');
+    background-image: url('./img/portfolio/model3d.svg');
 }
 .ico-Motgraf{
-    background-image: url('./img/icons/motgrap.svg');
+    background-image: url('./img/portfolio/motgrap.svg');
 }
 .ico-progcode{
-    background-image: url('./img/icons/progcode.svg');
+    background-image: url('./img/portfolio/progcode.svg');
 }
