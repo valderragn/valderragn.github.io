@@ -5,7 +5,7 @@ var currentScrollPos = window.pageYOffset;
     document.getElementById("mainNav").style.top = "0";
     
   } else {
-    document.getElementById("mainNav").style.top = "-100px";
+    document.getElementById("mainNav").style.top = "-120px";
   }
 
   if (window.pageYOffset >= 650){
@@ -17,3 +17,10 @@ var currentScrollPos = window.pageYOffset;
 
   prevScrollpos = currentScrollPos;
 }
+// $("#mainNavbar").click(function(){
+//   if($("#navbarResponsive").hasClass("show")){
+//     document.getElementById("mainNav").style.background = "rgba(26, 188, 156, 100)";
+//   }else{
+//     document.getElementById("mainNav").style.background = "rgba(26, 188, 156, 0)";
+//   }
+// });
