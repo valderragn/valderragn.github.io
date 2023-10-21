@@ -17,10 +17,14 @@ var currentScrollPos = window.pageYOffset;
 
   prevScrollpos = currentScrollPos;
 }
-// $("#mainNavbar").click(function(){
-//   if($("#navbarResponsive").hasClass("show")){
-//     document.getElementById("mainNav").style.background = "rgba(26, 188, 156, 100)";
-//   }else{
-//     document.getElementById("mainNav").style.background = "rgba(26, 188, 156, 0)";
-//   }
-// });
+
+$(document).ready(function () {
+  $("#mainNavbar").click(function(){
+    $("#navbarResponsive").css("display") == "none" ? $("#navbarResponsive").css("display", "block") : $("#navbarResponsive").css("display", "none") ;
+  });
+
+  $(".navbar-item").click(function(){
+    console.log("navbarItem");
+    $("#navbarResponsive").css("display", "none") ;
+  });
+});
