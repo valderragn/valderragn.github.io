@@ -9,8 +9,10 @@
 }
 
 .my-barico {
-    width: 12vw;
-    height: 7vh;
+    min-width: 50px;
+    min-height: 50px;
+    width: 175px;
+    height: auto;
     display: inline-block;
     text-align: right;
     margin: 0.4em 0.05em 0.05em 0.2em;
