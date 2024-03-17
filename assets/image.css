@@ -1,6 +1,8 @@
 .my-ico {
-    min-width: 30%;
-    min-height: 30%;
+    /* min-width: 30%;
+    min-height: 30%; */
+    margin-left: 20px;
+    margin-top: 5px;
     width: 8.5vw;
     height: 8.5vh;
     display: inline-block;
@@ -20,20 +22,6 @@
 }
 
 .ico-logo{
-    background-image: url('./img/portfolio/mainlog.svg');
-}
-
-/* navTittle */
-
-.ico-2dDes{
-    background-image: url('./img/portfolio/2dDesign.svg');
-}
-.ico-3dMod{
-    background-image: url('./img/portfolio/model3d.svg');
-}
-.ico-Motgraf{
-    background-image: url('./img/portfolio/motgrap.svg');
-}
-.ico-progcode{
-    background-image: url('./img/portfolio/progcode.svg');
+        background-image: url('./img/portfolio/Logo main.svg');
+        filter: invert(100%);    
 }

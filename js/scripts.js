@@ -21,6 +21,8 @@ var currentScrollPos = window.pageYOffset;
 $(document).ready(function () {
   $("#mainNavbar").click(function(){
     $("#navbarResponsive").css("display") == "none" ? $("#navbarResponsive").css("display", "block") : $("#navbarResponsive").css("display", "none") ;
+    $("#navbarResponsive").css("display") == "block" ? $("#mainNavbar").addClass('bg-secondary') : $("#mainNavbar").removeClass('bg-secondary');
+    $("#navbarResponsive").css("display") == "block" ? $("#barLogo").css('filter', 'invert(0%)') : $("#barLogo").css('filter', 'invert(100%)');
   });
 
   $(".navbar-item").click(function(){
